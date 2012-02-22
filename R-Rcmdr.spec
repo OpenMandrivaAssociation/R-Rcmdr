@@ -9,10 +9,17 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.8-3.tar.gz
-Requires:         R-tcltk R-grDevices R-utils R-car 
-Requires:         R-abind R-aplpack R-colorspace R-effects R-e1071 R-foreign R-grid R-Hmisc R-lattice R-leaps R-lmtest R-MASS R-mgcv R-multcomp R-nlme R-nnet R-relimp R-rgl R-RODBC R-sem 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-tcltk R-grDevices R-utils R-car
-BuildRequires:    R-abind R-aplpack R-colorspace R-effects R-e1071 R-foreign R-grid R-Hmisc R-lattice R-leaps R-lmtest R-MASS R-mgcv R-multcomp R-nlme R-nnet R-relimp R-rgl R-RODBC R-sem 
+Requires:         R-tcltk R-grDevices R-utils R-car
+Requires:         R-abind R-aplpack R-colorspace R-effects R-e1071
+Requires:         R-foreign R-grid R-Hmisc R-lattice R-leaps R-lmtest
+Requires:         R-MASS R-mgcv R-multcomp R-nlme R-nnet R-relimp R-rgl
+Requires:         R-RODBC R-sem
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-tcltk R-grDevices R-utils R-car
+BuildRequires:    R-abind R-aplpack R-colorspace R-effects R-e1071
+BuildRequires:    R-foreign R-grid R-Hmisc R-lattice R-leaps R-lmtest
+BuildRequires:    R-MASS R-mgcv R-multcomp R-nlme R-nnet R-relimp R-rgl
+BuildRequires:    R-RODBC R-sem
 
 %description
 A platform-independent basic-statistics GUI (graphical user interface) for
