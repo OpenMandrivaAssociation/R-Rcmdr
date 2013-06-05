@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.8_3
+Version:          1.9.6
 Release:          1
 Summary:          R Commander
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.8-3.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/Rcmdr_1.9-6.tar.gz
 Requires:         R-tcltk R-grDevices R-utils R-car
 Requires:         R-abind R-aplpack R-colorspace R-effects R-e1071
 Requires:         R-foreign R-grid R-Hmisc R-lattice R-leaps R-lmtest
@@ -57,3 +57,4 @@ fi
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
 %{rlibdir}/%{packname}/po
+
