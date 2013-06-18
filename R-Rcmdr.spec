@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.8_3
-Release:          1
+Release:          2
 Summary:          R Commander
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
